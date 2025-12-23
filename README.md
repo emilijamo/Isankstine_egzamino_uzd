@@ -18,7 +18,7 @@ Programa veikia su 'input.txt', kuris yra nukopijuotas tekstas iš https://en.wi
    
    ii. cmake --build .
    
-   iii. copy src\*.txt Debug\*.txt
+   iii. copy src\\*.txt Debug\\*.txt
    
    iv. cd .\Debug\
    
