@@ -12,11 +12,16 @@ Programa veikia su 'input.txt', kuris yra nukopijuotas tekstas iš https://en.wi
 
 1. Kompiuteryje turėkite įdiegtus cmake interpretatorių bei C++ kompiliatorių. Jei neturite, galite juos įsidiegti čia: https://cmake.org/download/ https://cmake.org/download/ https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022
 2. Iš šios github repozitorijos atsisiųskite aplanką 'programa'
-3. Tuomet per terminalą nueikite iki atsisiųsto aplanko 'programa' ir tuomet paleiskite šias komandas:
+3. Tuomet per terminalą nueikite iki atsisiųsto aplanko 'programa' ir paleiskite šias komandas:
+   
    i. cmake CmakeLists.txt
+   
    ii. cmake --build .
+   
    iii. copy src\*.txt Debug\*.txt
+   
    iv. cd .\Debug\
+   
    v. .\teksto_apdorojimas.exe
 
 *Veiksmingumų aprašymai*
